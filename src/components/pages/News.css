@@ -1,0 +1,24 @@
+.news-wrapper{
+    display: grid;
+    width: 100%;
+}
+
+.news-element{
+    box-shadow: 1px 2px 6px 0px white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.news-link{
+    color: wheat;
+    text-decoration: none;
+}
+
+.news-desc{
+    color: white;
+    font-weight:800;
+}

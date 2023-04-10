@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.nav-one{
+    margin-left: 50px;
+}
+
+.nav-two{
+    margin-right: 50px;
+}
+
+.nav-links{
+    text-decoration: none;
+    margin: 0rem 3rem;
+    padding: 0.5rem 2rem;
+    box-shadow: 1px 2px 6px 0px white;
+    border-radius: 7px;
+}
+
+.nav-links,a{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.active{
+   color: black;   
+   background-color:white; 
+   font-size: 20px;
+   font-weight: 600;
+   box-shadow: 1px 6px 4px 0px ; 
+}
+
+/* #020710 
+   #1c222b  black
+    #1a1a1a
+    #54595F
+    #7A7A7A
+
+    #6EC1E4
+    #61CE70  grenne
+    #36bb91
+
+
+    #ebe9eb   gray
+*/ 

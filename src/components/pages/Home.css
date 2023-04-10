@@ -1,0 +1,113 @@
+.home{
+  background: #04123C;
+  background: -webkit-linear-gradient(top, #04123C, #010101); 
+  background: -moz-linear-gradient(top, #04123C, #010101);
+  background: linear-gradient(to bottom, #04123C, #010101);
+}
+
+.home_line{
+    width: 90%;
+    font-weight: 100;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.home-h1{
+    text-align: center;
+    color: white;
+}
+
+.stat-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stats-item{
+    /* box-shadow: 1px 2px 6px 0px rgb(248, 248, 248); */
+    padding: 10px;
+    color: aliceblue;
+}
+
+.stats-item, p{
+    margin: 0;
+}
+
+.stats-title{
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.stats-detail{
+    font-weight:1000;
+    font-size: 40px;
+}
+
+.home-link{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.home-link, a{
+    color: white;
+}
+
+/* Home Header Css */
+
+.header_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.header_img{
+    height: 400px;
+    width: 400px;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+.header_p{
+    color: aliceblue;
+    font-size:20px ;
+    font-weight: 100;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-intro-h1{
+    color: white;
+    margin: 0;
+    font-size: 43px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.header_base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    padding: 65px;
+}
+
+.header_base _h1{
+ color:#36bb91;
+}

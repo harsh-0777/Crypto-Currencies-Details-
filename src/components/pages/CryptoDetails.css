@@ -1,0 +1,89 @@
+.CryptoDetails{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Nanum Myeongjo', serif; 
+
+  background: #04123C;
+  background: -webkit-linear-gradient(top, #04123C, #010101); 
+  background: -moz-linear-gradient(top, #04123C, #010101);
+  background: linear-gradient(to bottom, #04123C, #010101);
+  color: white;
+}
+
+.crypto-data-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.crypto-data-title-cintainer{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 40px;
+
+}
+
+.cyrpto-data-h1{
+    font-size: 40px;
+}
+
+.cyrpto-data-p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;  
+}
+
+.crypto-detail-img{
+    height: 150px;
+    width: 150px;
+}
+
+.CryptoDetails-hr{
+    width: 80%;
+}
+
+.crypto-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.crypto-stats-item{
+    padding: 20px;
+}
+
+.crypto-stats-item-p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px; 
+}
+
+.crypto-descrptn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.crypto-descrptn-2{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px; 
+    margin: 20px;
+    padding: 20px;
+}
+
+.crypto-descrptn-2-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 2px 6px 0px white;
+}
+
+.crypto-link-item{
+    padding: 5px 35px;
+    margin: 5px 25px;
+}

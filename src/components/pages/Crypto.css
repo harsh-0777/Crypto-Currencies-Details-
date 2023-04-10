@@ -1,0 +1,57 @@
+.crypto-input{
+    border: none;
+    width: 500px;
+    box-shadow: 1px 2px 6px 0px black;
+    margin: 30px;
+    padding: 20px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.cryto-wrapper{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 50px;
+    justify-content: space-evenly; 
+    /* background-color: rgb(25, 25, 25); */
+    margin-top: 20px;
+    padding: 30px 5px;
+}
+
+.crypto-detail{
+    box-shadow: 1px 2px 6px 0px wheat;
+    color: aliceblue;
+    padding: 10px 10px;
+    /* background: rgb(17, 99, 105);
+    background: linear-gradient(104deg, rgba(24,141,150,1) 2%, rgba(0,37,37,1) 90%); */
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+}
+
+.crypto-detail-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-img{
+    width: 50px;
+    height: 50px;
+}
+
+.crypto-detail-stats , p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 100;
+   padding: 5px 0;
+}
+
+.cypto-detail-span{
+    font-weight: 800;
+}
+
+.crypto-stats-link{
+    color: red;
+    font-size: 15px;
+}
+
+.crypto-detail-link{
+    text-decoration: none;
+}
